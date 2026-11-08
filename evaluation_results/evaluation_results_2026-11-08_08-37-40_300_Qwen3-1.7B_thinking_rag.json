@@ -1,0 +1,54 @@
+[
+  {
+    "timestamp_utc": "2026-11-08T09:17:08.755367+00:00",
+    "metrics": {
+      "ticket_count": 300,
+      "technical_failure_rate": 0.0033333333333333335,
+      "results_summary": {
+        "status_counts": {
+          "ok": 271,
+          "needs_more_info": 7,
+          "needs_review": 21,
+          "error": 1
+        },
+        "status_rates": {
+          "ok": 0.9033333333333333,
+          "needs_more_info": 0.023333333333333334,
+          "needs_review": 0.07,
+          "error": 0.0033333333333333335
+        },
+        "error_types": {
+          "invalid_output": 1
+        },
+        "error_stages": {
+          "classify_and_prioritize": 1
+        }
+      },
+      "urgency": {
+        "sample_count": 300,
+        "accuracy": 0.46,
+        "macro_precision": 0.4314730666359898,
+        "macro_recall": 0.4283144123880535,
+        "macro_f1": 0.4288363201911589,
+        "high_count": 116,
+        "high_recall": 0.5086206896551724
+      },
+      "queue_action_agreement": {
+        "sample_count": 148,
+        "accuracy": 0.6148648648648649,
+        "macro_precision": 0.9705882352941176,
+        "macro_recall": 0.509009009009009,
+        "macro_f1": 0.6373299319727891,
+        "queue_to_action": {
+          "Billing and Payments": "Forward to billing team",
+          "Technical Support": "Forward to technical support",
+          "IT Support": "Forward to technical support"
+        }
+      },
+      "review": {
+        "mode": "human",
+        "status": "skipped"
+      }
+    }
+  }
+]

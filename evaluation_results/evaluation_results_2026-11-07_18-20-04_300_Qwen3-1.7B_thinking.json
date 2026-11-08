@@ -1,0 +1,206 @@
+[
+  {
+    "timestamp_utc": "2026-11-07T18:53:27.325143+00:00",
+    "metrics": {
+      "ticket_count": 300,
+      "technical_failure_rate": 0.0,
+      "results_summary": {
+        "status_counts": {
+          "needs_review": 19,
+          "ok": 248,
+          "needs_more_info": 33,
+          "error": 0
+        },
+        "status_rates": {
+          "needs_review": 0.06333333333333334,
+          "ok": 0.8266666666666667,
+          "needs_more_info": 0.11,
+          "error": 0.0
+        },
+        "error_types": {},
+        "error_stages": {}
+      },
+      "urgency": {
+        "sample_count": 300,
+        "accuracy": 0.38333333333333336,
+        "macro_precision": 0.3982596475016124,
+        "macro_recall": 0.3982224347507808,
+        "macro_f1": 0.38291221454012153,
+        "high_count": 116,
+        "high_recall": 0.3793103448275862
+      },
+      "queue_action_agreement": {
+        "sample_count": 148,
+        "accuracy": 0.5540540540540541,
+        "macro_precision": 0.9615384615384616,
+        "macro_recall": 0.4594594594594595,
+        "macro_f1": 0.5937183383991894,
+        "queue_to_action": {
+          "Billing and Payments": "Forward to billing team",
+          "Technical Support": "Forward to technical support",
+          "IT Support": "Forward to technical support"
+        }
+      },
+      "review": {
+        "mode": "human",
+        "status": "skipped"
+      }
+    }
+  },
+  {
+    "timestamp_utc": "2026-11-07T22:58:01.560873+00:00",
+    "metrics": {
+      "ticket_count": 300,
+      "technical_failure_rate": 0.0,
+      "results_summary": {
+        "status_counts": {
+          "needs_review": 19,
+          "ok": 248,
+          "needs_more_info": 33,
+          "error": 0
+        },
+        "status_rates": {
+          "needs_review": 0.06333333333333334,
+          "ok": 0.8266666666666667,
+          "needs_more_info": 0.11,
+          "error": 0.0
+        },
+        "error_types": {},
+        "error_stages": {}
+      },
+      "urgency": {
+        "sample_count": 300,
+        "accuracy": 0.38333333333333336,
+        "macro_precision": 0.3982596475016124,
+        "macro_recall": 0.3982224347507808,
+        "macro_f1": 0.38291221454012153,
+        "high_count": 116,
+        "high_recall": 0.3793103448275862
+      },
+      "queue_action_agreement": {
+        "sample_count": 148,
+        "accuracy": 0.5540540540540541,
+        "macro_precision": 0.9615384615384616,
+        "macro_recall": 0.4594594594594595,
+        "macro_f1": 0.5937183383991894,
+        "queue_to_action": {
+          "Billing and Payments": "Forward to billing team",
+          "Technical Support": "Forward to technical support",
+          "IT Support": "Forward to technical support"
+        }
+      },
+      "review": {
+        "mode": "human",
+        "status": "pending",
+        "sample_count": 100,
+        "average_scores": null,
+        "pass_rate": null
+      }
+    }
+  },
+  {
+    "timestamp_utc": "2026-11-07T23:01:52.877310+00:00",
+    "metrics": {
+      "ticket_count": 300,
+      "technical_failure_rate": 0.0,
+      "results_summary": {
+        "status_counts": {
+          "needs_review": 19,
+          "ok": 248,
+          "needs_more_info": 33,
+          "error": 0
+        },
+        "status_rates": {
+          "needs_review": 0.06333333333333334,
+          "ok": 0.8266666666666667,
+          "needs_more_info": 0.11,
+          "error": 0.0
+        },
+        "error_types": {},
+        "error_stages": {}
+      },
+      "urgency": {
+        "sample_count": 300,
+        "accuracy": 0.38333333333333336,
+        "macro_precision": 0.3982596475016124,
+        "macro_recall": 0.3982224347507808,
+        "macro_f1": 0.38291221454012153,
+        "high_count": 116,
+        "high_recall": 0.3793103448275862
+      },
+      "queue_action_agreement": {
+        "sample_count": 148,
+        "accuracy": 0.5540540540540541,
+        "macro_precision": 0.9615384615384616,
+        "macro_recall": 0.4594594594594595,
+        "macro_f1": 0.5937183383991894,
+        "queue_to_action": {
+          "Billing and Payments": "Forward to billing team",
+          "Technical Support": "Forward to technical support",
+          "IT Support": "Forward to technical support"
+        }
+      },
+      "review": {
+        "mode": "human",
+        "status": "completed",
+        "sample_count": 100,
+        "average_scores": {
+          "topic_eva": 4.26,
+          "urgency_eva": 4.37,
+          "action_eva": 4.21,
+          "notes_eva": 3.95
+        },
+        "pass_count": 36,
+        "pass_rate": 0.36
+      }
+    }
+  },
+  {
+    "timestamp_utc": "2026-11-08T17:43:11.382186+00:00",
+    "metrics": {
+      "ticket_count": 300,
+      "technical_failure_rate": 0.0,
+      "results_summary": {
+        "status_counts": {
+          "needs_review": 19,
+          "ok": 248,
+          "needs_more_info": 33,
+          "error": 0
+        },
+        "status_rates": {
+          "needs_review": 0.06333333333333334,
+          "ok": 0.8266666666666667,
+          "needs_more_info": 0.11,
+          "error": 0.0
+        },
+        "error_types": {},
+        "error_stages": {}
+      },
+      "urgency": {
+        "sample_count": 300,
+        "accuracy": 0.38333333333333336,
+        "macro_precision": 0.3982596475016124,
+        "macro_recall": 0.3982224347507808,
+        "macro_f1": 0.38291221454012153,
+        "high_count": 116,
+        "high_recall": 0.3793103448275862
+      },
+      "queue_action_agreement": {
+        "sample_count": 148,
+        "accuracy": 0.5540540540540541,
+        "macro_precision": 0.9615384615384616,
+        "macro_recall": 0.4594594594594595,
+        "macro_f1": 0.5937183383991894,
+        "queue_to_action": {
+          "Billing and Payments": "Forward to billing team",
+          "Technical Support": "Forward to technical support",
+          "IT Support": "Forward to technical support"
+        }
+      },
+      "review": {
+        "mode": "human",
+        "status": "skipped"
+      }
+    }
+  }
+]
